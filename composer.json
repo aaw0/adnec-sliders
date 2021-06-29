@@ -1,0 +1,19 @@
+{
+    "name": "aaw0/adnec-sliders",
+    "description": "Home Page Sliders to be used in the carousel and replace the old way, create a database table too.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AliAwwadADNEC",
+            "email": "ali.awwad@adnec.ae"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Aaw0\\AdnecSliders\\": "src/"
+        }
+    }
+}
