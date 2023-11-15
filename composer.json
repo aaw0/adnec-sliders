@@ -10,7 +10,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "emilianotisato/nova-tinymce": "^2.0",
+        "laravel/nova":"^4.0",
+        "outl1ne/nova-sortable": "^3.4"
+    },
     "autoload": {
         "psr-4": {
             "Aaw0\\AdnecSliders\\": "src/"

@@ -11,7 +11,7 @@ use Laravel\Nova\Fields\Image;
 use Laravel\Nova\Fields\Number;
 use Laravel\Nova\Fields\Select;
 use Laravel\Nova\Fields\Text;
-use OptimistDigital\NovaSortable\Traits\HasSortableRows;
+use Outl1ne\NovaSortable\Traits\HasSortableRows;
 
 class AdnecSlider extends Resource
 {
