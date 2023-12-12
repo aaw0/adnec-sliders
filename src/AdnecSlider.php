@@ -50,8 +50,8 @@ class AdnecSlider extends Resource
     {
         return [
             ID::make(__('ID'), 'id')->sortable(),
-            Image::make('Image')->disk('public')->required(),
-            Image::make('Image Webp')->disk('public')->hideFromIndex()->nullable()
+            Image::make('Image')->disk('s3')->required(),
+            Image::make('Image Webp')->disk('s3')->hideFromIndex()->nullable()
             ->help('Please upload .Webp image if you have it, you can create one online,
             <a href="https://image.online-convert.com/convert-to-webp" target="_blank" rel="noopener noreferrer">
             https://image.online-convert.com/convert-to-webp</a> '),
